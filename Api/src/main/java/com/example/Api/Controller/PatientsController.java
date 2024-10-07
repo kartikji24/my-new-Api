@@ -61,6 +61,9 @@ public class PatientsController {
         return  patientsService.correctDetail(id , patients);
 
 
+
+
+
      }
 
 }
