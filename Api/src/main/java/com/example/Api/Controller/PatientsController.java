@@ -60,6 +60,7 @@ public class PatientsController {
     public int correctDetail(@PathVariable int id , @RequestBody Patients patients){
         return  patientsService.correctDetail(id , patients);
 
+
      }
 
 }
